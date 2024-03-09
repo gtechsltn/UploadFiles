@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    .jumbotron {
+        margin-top: 30px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h1>Upload both data and files</h1>
+    <a href="@Url.Action("Upload", "Home")">Upload</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            console.log('Home Page');
+        });
+    </script>
+}
